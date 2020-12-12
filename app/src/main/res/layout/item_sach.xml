@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvMalop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="mã lớp:"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tvTenlop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên lớp:"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivEdit"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_edit"/>
+
+    <ImageView
+        android:id="@+id/imgDelete"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ivEdit"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_delete"/>
+
+</RelativeLayout>
